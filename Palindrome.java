@@ -4,7 +4,7 @@ public class Palindrome {
              System.out.println(&quot;Please provide a word to check!&quot;);
              return;
          }
-         String word = args[0];  // Take word from argument
+         String word = args[0];
          if (isPalindrome(word)) {
             System.out.println(word + &quot; is a palindrome!&quot;);
          } else {
